@@ -13,5 +13,5 @@ Libraries/technologies used:
 - androidx.preference
 - android.material.floatingactionbutton.FloatingActionButton
  
-![alt tag](https://github.com/Heisenburn/mojStick/blob/master/1.JPG?raw=true)
+![alt tag](https://github.com/Heisenburn/mojStick-Sticky-Notes-App-Android/blob/master/Screenshot_1587380507.png?raw=true)
  
