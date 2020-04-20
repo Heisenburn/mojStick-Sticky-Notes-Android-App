@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">mojStick2019-V2</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="fontColor">fontColor</string>
+    <string name="backgroundColor">backgroundColor</string>
+    <string name="fontSize">fontSize</string>
+
+
+
+</resources>

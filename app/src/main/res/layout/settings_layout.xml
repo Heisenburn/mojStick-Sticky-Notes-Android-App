@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/settingsContainer">
+
+    <FrameLayout
+        android:id="@+id/preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/previewOfWidgetContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/previewOfWidget"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_margin="50dp"
+
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="This is where your text will appear"
+
+            android:inputType="textMultiLine"
+            android:textColor="@color/white" />
+
+
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

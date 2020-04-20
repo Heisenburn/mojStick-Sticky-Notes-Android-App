@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.jaredrummler.android.colorpicker.ColorPreference
+        android:layout_width="match_parent"
+        android:key="@string/backgroundColor"
+        android:title="Background color"
+        app:cpv_allowCustom="false"
+        app:cpv_showAlphaSlider="true"/>
+
+
+    <com.jaredrummler.android.colorpicker.ColorPreference
+        android:layout_width="match_parent"
+        android:key="@string/fontColor"
+        android:title="Font color"
+        app:cpv_allowCustom="false" />
+
+
+
+
+    <SeekBarPreference
+        android:id="@+id/fontSizeSeekBar"
+        android:layout_width="match_parent"
+        android:defaultValue="50"
+        android:key="fontSizeSeekBar"
+        android:max="100"
+        android:title="Size of the font" />
+
+
+</PreferenceScreen>
